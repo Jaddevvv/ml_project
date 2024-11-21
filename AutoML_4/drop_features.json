@@ -1,0 +1,17 @@
+[
+    "MA5",
+    "High Price_diff_Low Price",
+    "High Price_ratio_Open Price",
+    "MA20",
+    "Low Price",
+    "Prev Close Price_ratio_MA5",
+    "MA5_ratio_Prev Close Price",
+    "random_feature",
+    "MA10",
+    "Dividend_ratio_Volume",
+    "High Price",
+    "Open Price",
+    "Dividend",
+    "Open Price_ratio_High Price",
+    "Dividend_ratio_Prev Volume"
+]

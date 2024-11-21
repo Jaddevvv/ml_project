@@ -1,0 +1,797 @@
+{
+    "uid": "12428e11-a4d8-4187-abac-a87126fe1f98",
+    "name": "23_NeuralNetwork",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        27.490327383053717,
+                        27.778311778372622,
+                        27.163610602966422,
+                        27.482524328234632,
+                        29117568.704192854,
+                        27.402629597218628,
+                        27.316612623566993,
+                        27.18169326497237,
+                        27.452500002021022,
+                        28600486.07107495
+                    ],
+                    "mean": [
+                        46.49694692960559,
+                        47.01217868197703,
+                        45.983501822266604,
+                        46.50260534198702,
+                        49342122.46804793,
+                        46.47648271592612,
+                        46.44926812031952,
+                        46.392488347478775,
+                        46.49375793809286,
+                        49365449.49301048
+                    ],
+                    "var": [
+                        755.7180996274731,
+                        771.6346052564751,
+                        737.8617409895899,
+                        755.2891434520084,
+                        847832807243391.2,
+                        750.9041088423622,
+                        746.1973252260196,
+                        738.8444487510444,
+                        753.6397563609642,
+                        817987803501752.2
+                    ],
+                    "n_samples_seen": 4006,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Open Price",
+                        "High Price",
+                        "Low Price",
+                        "Close Price",
+                        "Volume",
+                        "MA5",
+                        "MA10",
+                        "MA20",
+                        "Prev Close Price",
+                        "Prev Volume"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7823136253842035
+                ],
+                "mean": [
+                    3.1635255055554867
+                ],
+                "var": [
+                    0.6120146084617759
+                ],
+                "n_samples_seen": 4006,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    15.15
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Open Price": [
+                        "scale_normal"
+                    ],
+                    "High Price": [
+                        "scale_normal"
+                    ],
+                    "Low Price": [
+                        "scale_normal"
+                    ],
+                    "Close Price": [
+                        "scale_normal"
+                    ],
+                    "Volume": [
+                        "scale_normal"
+                    ],
+                    "Stock Splits": [
+                        "remove_column"
+                    ],
+                    "MA5": [
+                        "scale_normal"
+                    ],
+                    "MA10": [
+                        "scale_normal"
+                    ],
+                    "MA20": [
+                        "scale_normal"
+                    ],
+                    "Prev Close Price": [
+                        "scale_normal"
+                    ],
+                    "Prev Volume": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        27.72743906946932,
+                        28.007085400544483,
+                        27.389252913621807,
+                        27.70584219114079,
+                        28351065.327405017,
+                        27.654608723601033,
+                        27.57121591511846,
+                        27.41197087814817,
+                        27.701917490921172,
+                        27552275.228515588
+                    ],
+                    "mean": [
+                        46.64970786320519,
+                        47.16272663504743,
+                        46.12536460309536,
+                        46.64494667998002,
+                        49222890.157763354,
+                        46.63973042436345,
+                        46.614369875187215,
+                        46.57190980029956,
+                        46.65033287568647,
+                        49285217.26909635
+                    ],
+                    "var": [
+                        768.8108773511337,
+                        784.3968326333919,
+                        750.1711751663406,
+                        767.6136915203971,
+                        803782905198787.0,
+                        764.7773836554704,
+                        760.1719470380815,
+                        751.4161474244435,
+                        767.3962326738044,
+                        759127870267873.8
+                    ],
+                    "n_samples_seen": 4006,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Open Price",
+                        "High Price",
+                        "Low Price",
+                        "Close Price",
+                        "Volume",
+                        "MA5",
+                        "MA10",
+                        "MA20",
+                        "Prev Close Price",
+                        "Prev Volume"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7896489549243506
+                ],
+                "mean": [
+                    3.1636523174399884
+                ],
+                "var": [
+                    0.6235454720131192
+                ],
+                "n_samples_seen": 4006,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    15.15
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Open Price": [
+                        "scale_normal"
+                    ],
+                    "High Price": [
+                        "scale_normal"
+                    ],
+                    "Low Price": [
+                        "scale_normal"
+                    ],
+                    "Close Price": [
+                        "scale_normal"
+                    ],
+                    "Volume": [
+                        "scale_normal"
+                    ],
+                    "Stock Splits": [
+                        "remove_column"
+                    ],
+                    "MA5": [
+                        "scale_normal"
+                    ],
+                    "MA10": [
+                        "scale_normal"
+                    ],
+                    "MA20": [
+                        "scale_normal"
+                    ],
+                    "Prev Close Price": [
+                        "scale_normal"
+                    ],
+                    "Prev Volume": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        27.646551842977274,
+                        27.932224300665823,
+                        27.318272221673883,
+                        27.637973598350836,
+                        28145089.89988806,
+                        27.574590163514173,
+                        27.482723092250776,
+                        27.32531383011822,
+                        27.617066629993552,
+                        28558630.05607283
+                    ],
+                    "mean": [
+                        46.622004767848225,
+                        47.13699278582127,
+                        46.10506969545681,
+                        46.626682401397915,
+                        49110714.73614578,
+                        46.602710918622066,
+                        46.5663354892661,
+                        46.51180374563155,
+                        46.616588791812276,
+                        49232225.43085372
+                    ],
+                    "var": [
+                        764.3318288064302,
+                        780.2091543827063,
+                        746.2879971774789,
+                        763.8575846231378,
+                        792146085472780.9,
+                        760.3580226857727,
+                        755.3000685653341,
+                        746.67277591445,
+                        762.7023692455034,
+                        815595350679626.4
+                    ],
+                    "n_samples_seen": 4006,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Open Price",
+                        "High Price",
+                        "Low Price",
+                        "Close Price",
+                        "Volume",
+                        "MA5",
+                        "MA10",
+                        "MA20",
+                        "Prev Close Price",
+                        "Prev Volume"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7878315562319534
+                ],
+                "mean": [
+                    3.1649088008640516
+                ],
+                "var": [
+                    0.6206785609948616
+                ],
+                "n_samples_seen": 4006,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    15.15
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Open Price": [
+                        "scale_normal"
+                    ],
+                    "High Price": [
+                        "scale_normal"
+                    ],
+                    "Low Price": [
+                        "scale_normal"
+                    ],
+                    "Close Price": [
+                        "scale_normal"
+                    ],
+                    "Volume": [
+                        "scale_normal"
+                    ],
+                    "Stock Splits": [
+                        "remove_column"
+                    ],
+                    "MA5": [
+                        "scale_normal"
+                    ],
+                    "MA10": [
+                        "scale_normal"
+                    ],
+                    "MA20": [
+                        "scale_normal"
+                    ],
+                    "Prev Close Price": [
+                        "scale_normal"
+                    ],
+                    "Prev Volume": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        27.49527565828407,
+                        27.786206054948895,
+                        27.19095505363558,
+                        27.504043242151518,
+                        28958949.53991558,
+                        27.43445909871728,
+                        27.36905074562589,
+                        27.21593012170625,
+                        27.466084788632863,
+                        28971913.485034052
+                    ],
+                    "mean": [
+                        46.3333004741702,
+                        46.84977169952583,
+                        45.8299345645121,
+                        46.34816680808585,
+                        49595132.02146244,
+                        46.32735752932369,
+                        46.305682415772395,
+                        46.26127942600449,
+                        46.324287996006994,
+                        49491112.743948095
+                    ],
+                    "var": [
+                        755.9901835250284,
+                        772.0732469280786,
+                        739.3480367288303,
+                        756.4723946661406,
+                        838620758455376.8,
+                        752.6495460391914,
+                        749.0649387166451,
+                        740.7068523895977,
+                        754.3858136163695,
+                        839371770984297.9
+                    ],
+                    "n_samples_seen": 4007,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Open Price",
+                        "High Price",
+                        "Low Price",
+                        "Close Price",
+                        "Volume",
+                        "MA5",
+                        "MA10",
+                        "MA20",
+                        "Prev Close Price",
+                        "Prev Volume"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.783820432656886
+                ],
+                "mean": [
+                    3.157531783081846
+                ],
+                "var": [
+                    0.6143744706504278
+                ],
+                "n_samples_seen": 4007,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    15.15
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Open Price": [
+                        "scale_normal"
+                    ],
+                    "High Price": [
+                        "scale_normal"
+                    ],
+                    "Low Price": [
+                        "scale_normal"
+                    ],
+                    "Close Price": [
+                        "scale_normal"
+                    ],
+                    "Volume": [
+                        "scale_normal"
+                    ],
+                    "Stock Splits": [
+                        "remove_column"
+                    ],
+                    "MA5": [
+                        "scale_normal"
+                    ],
+                    "MA10": [
+                        "scale_normal"
+                    ],
+                    "MA20": [
+                        "scale_normal"
+                    ],
+                    "Prev Close Price": [
+                        "scale_normal"
+                    ],
+                    "Prev Volume": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        27.68303922213414,
+                        27.975164837618337,
+                        27.341757936532456,
+                        27.673582875746476,
+                        27571761.799344875,
+                        27.624983887168284,
+                        27.555461851882963,
+                        27.384415933421227,
+                        27.653180849714783,
+                        28487206.362668816
+                    ],
+                    "mean": [
+                        46.63432333416521,
+                        47.15510970801098,
+                        46.10238545046169,
+                        46.63322847516845,
+                        49532857.6575992,
+                        46.61674834040429,
+                        46.598626099326175,
+                        46.548085988270536,
+                        46.62461929124033,
+                        49412670.50910906
+                    ],
+                    "var": [
+                        766.3506605742173,
+                        782.6098476919174,
+                        747.5717270599355,
+                        765.8271891808087,
+                        760202048719813.2,
+                        763.1397347663072,
+                        759.3034778705772,
+                        749.9062360146144,
+                        764.6984111070324,
+                        811520926349278.6
+                    ],
+                    "n_samples_seen": 4007,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Open Price",
+                        "High Price",
+                        "Low Price",
+                        "Close Price",
+                        "Volume",
+                        "MA5",
+                        "MA10",
+                        "MA20",
+                        "Prev Close Price",
+                        "Prev Volume"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.7892689602204623
+                ],
+                "mean": [
+                    3.1584469018645223
+                ],
+                "var": [
+                    0.6229454915674897
+                ],
+                "n_samples_seen": 4007,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    15.27
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Open Price": [
+                        "scale_normal"
+                    ],
+                    "High Price": [
+                        "scale_normal"
+                    ],
+                    "Low Price": [
+                        "scale_normal"
+                    ],
+                    "Close Price": [
+                        "scale_normal"
+                    ],
+                    "Volume": [
+                        "scale_normal"
+                    ],
+                    "Stock Splits": [
+                        "remove_column"
+                    ],
+                    "MA5": [
+                        "scale_normal"
+                    ],
+                    "MA10": [
+                        "scale_normal"
+                    ],
+                    "MA20": [
+                        "scale_normal"
+                    ],
+                    "Prev Close Price": [
+                        "scale_normal"
+                    ],
+                    "Prev Volume": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "4a92f76c-897b-4985-b467-c487a6f380b5",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "dense_1_size": 32,
+                "dense_2_size": 4,
+                "learning_rate": 0.05,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "1dab4dea-2711-4e04-8b8a-a1cd36a2bc15",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "dense_1_size": 32,
+                "dense_2_size": 4,
+                "learning_rate": 0.05,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "987dc917-d222-4bde-95d5-502a9661cb51",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "dense_1_size": 32,
+                "dense_2_size": 4,
+                "learning_rate": 0.05,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "9b3956d2-83e0-4cfc-8eba-525a073fc2d5",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "dense_1_size": 32,
+                "dense_2_size": 4,
+                "learning_rate": 0.05,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "9b871ffc-0668-44cb-901f-9623790a4598",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "dense_1_size": 32,
+                "dense_2_size": 4,
+                "learning_rate": 0.05,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Open Price": [
+                    "scale_normal"
+                ],
+                "High Price": [
+                    "scale_normal"
+                ],
+                "Low Price": [
+                    "scale_normal"
+                ],
+                "Close Price": [
+                    "scale_normal"
+                ],
+                "Volume": [
+                    "scale_normal"
+                ],
+                "Stock Splits": [
+                    "remove_column"
+                ],
+                "MA5": [
+                    "scale_normal"
+                ],
+                "MA10": [
+                    "scale_normal"
+                ],
+                "MA20": [
+                    "scale_normal"
+                ],
+                "Prev Close Price": [
+                    "scale_normal"
+                ],
+                "Prev Volume": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "dense_1_size": 32,
+            "dense_2_size": 4,
+            "learning_rate": 0.05,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "23_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "23_NeuralNetwork\\learner_fold_0.neural_network",
+        "23_NeuralNetwork\\learner_fold_1.neural_network",
+        "23_NeuralNetwork\\learner_fold_2.neural_network",
+        "23_NeuralNetwork\\learner_fold_3.neural_network",
+        "23_NeuralNetwork\\learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "23_NeuralNetwork\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "2.171712913316787",
+    "train_time": 10.098354816436768,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "single_prediction_time": 0.3286118507385254
+}

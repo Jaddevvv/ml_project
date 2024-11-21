@@ -1,0 +1,685 @@
+{
+    "uid": "b9a8aa1e-6ef7-4932-b4d3-e88ed4fb96a3",
+    "name": "2_Default_LightGBM_GoldenFeatures",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Volume",
+                        "operation": "ratio",
+                        "score": 0.6924894138
+                    },
+                    {
+                        "feature1": "Open Price",
+                        "feature2": "Low Price",
+                        "operation": "diff",
+                        "score": 0.70090109
+                    },
+                    {
+                        "feature1": "MA5",
+                        "feature2": "Dividend",
+                        "operation": "ratio",
+                        "score": 0.7036249666
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "Close Price",
+                        "operation": "diff",
+                        "score": 0.7110012252
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "MA20",
+                        "operation": "diff",
+                        "score": 0.7121548553
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Low Price",
+                        "operation": "multiply",
+                        "score": 0.7154016958
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Prev Volume",
+                        "operation": "ratio",
+                        "score": 0.7155561691
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "MA5",
+                        "operation": "ratio",
+                        "score": 0.717227585
+                    },
+                    {
+                        "feature1": "Prev Volume",
+                        "feature2": "Prev Close Price",
+                        "operation": "multiply",
+                        "score": 0.7177631558
+                    },
+                    {
+                        "feature1": "MA20",
+                        "feature2": "MA10",
+                        "operation": "ratio",
+                        "score": 0.7187140083
+                    }
+                ],
+                "new_columns": [
+                    "Dividend_ratio_Volume",
+                    "Open Price_diff_Low Price",
+                    "MA5_ratio_Dividend",
+                    "Low Price_diff_Close Price",
+                    "Low Price_diff_MA20",
+                    "Dividend_multiply_Low Price",
+                    "Dividend_ratio_Prev Volume",
+                    "Close Price_ratio_MA5",
+                    "Prev Volume_multiply_Prev Close Price",
+                    "MA20_ratio_MA10"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Volume",
+                        "operation": "ratio",
+                        "score": 0.6924894138
+                    },
+                    {
+                        "feature1": "Open Price",
+                        "feature2": "Low Price",
+                        "operation": "diff",
+                        "score": 0.70090109
+                    },
+                    {
+                        "feature1": "MA5",
+                        "feature2": "Dividend",
+                        "operation": "ratio",
+                        "score": 0.7036249666
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "Close Price",
+                        "operation": "diff",
+                        "score": 0.7110012252
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "MA20",
+                        "operation": "diff",
+                        "score": 0.7121548553
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Low Price",
+                        "operation": "multiply",
+                        "score": 0.7154016958
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Prev Volume",
+                        "operation": "ratio",
+                        "score": 0.7155561691
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "MA5",
+                        "operation": "ratio",
+                        "score": 0.717227585
+                    },
+                    {
+                        "feature1": "Prev Volume",
+                        "feature2": "Prev Close Price",
+                        "operation": "multiply",
+                        "score": 0.7177631558
+                    },
+                    {
+                        "feature1": "MA20",
+                        "feature2": "MA10",
+                        "operation": "ratio",
+                        "score": 0.7187140083
+                    }
+                ],
+                "new_columns": [
+                    "Dividend_ratio_Volume",
+                    "Open Price_diff_Low Price",
+                    "MA5_ratio_Dividend",
+                    "Low Price_diff_Close Price",
+                    "Low Price_diff_MA20",
+                    "Dividend_multiply_Low Price",
+                    "Dividend_ratio_Prev Volume",
+                    "Close Price_ratio_MA5",
+                    "Prev Volume_multiply_Prev Close Price",
+                    "MA20_ratio_MA10"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Volume",
+                        "operation": "ratio",
+                        "score": 0.6924894138
+                    },
+                    {
+                        "feature1": "Open Price",
+                        "feature2": "Low Price",
+                        "operation": "diff",
+                        "score": 0.70090109
+                    },
+                    {
+                        "feature1": "MA5",
+                        "feature2": "Dividend",
+                        "operation": "ratio",
+                        "score": 0.7036249666
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "Close Price",
+                        "operation": "diff",
+                        "score": 0.7110012252
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "MA20",
+                        "operation": "diff",
+                        "score": 0.7121548553
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Low Price",
+                        "operation": "multiply",
+                        "score": 0.7154016958
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Prev Volume",
+                        "operation": "ratio",
+                        "score": 0.7155561691
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "MA5",
+                        "operation": "ratio",
+                        "score": 0.717227585
+                    },
+                    {
+                        "feature1": "Prev Volume",
+                        "feature2": "Prev Close Price",
+                        "operation": "multiply",
+                        "score": 0.7177631558
+                    },
+                    {
+                        "feature1": "MA20",
+                        "feature2": "MA10",
+                        "operation": "ratio",
+                        "score": 0.7187140083
+                    }
+                ],
+                "new_columns": [
+                    "Dividend_ratio_Volume",
+                    "Open Price_diff_Low Price",
+                    "MA5_ratio_Dividend",
+                    "Low Price_diff_Close Price",
+                    "Low Price_diff_MA20",
+                    "Dividend_multiply_Low Price",
+                    "Dividend_ratio_Prev Volume",
+                    "Close Price_ratio_MA5",
+                    "Prev Volume_multiply_Prev Close Price",
+                    "MA20_ratio_MA10"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Volume",
+                        "operation": "ratio",
+                        "score": 0.6924894138
+                    },
+                    {
+                        "feature1": "Open Price",
+                        "feature2": "Low Price",
+                        "operation": "diff",
+                        "score": 0.70090109
+                    },
+                    {
+                        "feature1": "MA5",
+                        "feature2": "Dividend",
+                        "operation": "ratio",
+                        "score": 0.7036249666
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "Close Price",
+                        "operation": "diff",
+                        "score": 0.7110012252
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "MA20",
+                        "operation": "diff",
+                        "score": 0.7121548553
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Low Price",
+                        "operation": "multiply",
+                        "score": 0.7154016958
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Prev Volume",
+                        "operation": "ratio",
+                        "score": 0.7155561691
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "MA5",
+                        "operation": "ratio",
+                        "score": 0.717227585
+                    },
+                    {
+                        "feature1": "Prev Volume",
+                        "feature2": "Prev Close Price",
+                        "operation": "multiply",
+                        "score": 0.7177631558
+                    },
+                    {
+                        "feature1": "MA20",
+                        "feature2": "MA10",
+                        "operation": "ratio",
+                        "score": 0.7187140083
+                    }
+                ],
+                "new_columns": [
+                    "Dividend_ratio_Volume",
+                    "Open Price_diff_Low Price",
+                    "MA5_ratio_Dividend",
+                    "Low Price_diff_Close Price",
+                    "Low Price_diff_MA20",
+                    "Dividend_multiply_Low Price",
+                    "Dividend_ratio_Prev Volume",
+                    "Close Price_ratio_MA5",
+                    "Prev Volume_multiply_Prev Close Price",
+                    "MA20_ratio_MA10"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Volume",
+                        "operation": "ratio",
+                        "score": 0.6924894138
+                    },
+                    {
+                        "feature1": "Open Price",
+                        "feature2": "Low Price",
+                        "operation": "diff",
+                        "score": 0.70090109
+                    },
+                    {
+                        "feature1": "MA5",
+                        "feature2": "Dividend",
+                        "operation": "ratio",
+                        "score": 0.7036249666
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "Close Price",
+                        "operation": "diff",
+                        "score": 0.7110012252
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "MA20",
+                        "operation": "diff",
+                        "score": 0.7121548553
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Low Price",
+                        "operation": "multiply",
+                        "score": 0.7154016958
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "Prev Volume",
+                        "operation": "ratio",
+                        "score": 0.7155561691
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "MA5",
+                        "operation": "ratio",
+                        "score": 0.717227585
+                    },
+                    {
+                        "feature1": "Prev Volume",
+                        "feature2": "Prev Close Price",
+                        "operation": "multiply",
+                        "score": 0.7177631558
+                    },
+                    {
+                        "feature1": "MA20",
+                        "feature2": "MA10",
+                        "operation": "ratio",
+                        "score": 0.7187140083
+                    }
+                ],
+                "new_columns": [
+                    "Dividend_ratio_Volume",
+                    "Open Price_diff_Low Price",
+                    "MA5_ratio_Dividend",
+                    "Low Price_diff_Close Price",
+                    "Low Price_diff_MA20",
+                    "Dividend_multiply_Low Price",
+                    "Dividend_ratio_Prev Volume",
+                    "Close Price_ratio_MA5",
+                    "Prev Volume_multiply_Prev Close Price",
+                    "MA20_ratio_MA10"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "f40d69ec-2841-4221-bb65-d9f25b75f29e",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 0.9,
+                "min_data_in_leaf": 10,
+                "seed": 2,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "779c8514-7b62-423c-a255-7ad7b7088842",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 0.9,
+                "min_data_in_leaf": 10,
+                "seed": 2,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "47999115-5599-474c-991d-0bd5776bea03",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 0.9,
+                "min_data_in_leaf": 10,
+                "seed": 2,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "22d1f914-d281-4866-9e15-c5138a6a6a59",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 0.9,
+                "min_data_in_leaf": 10,
+                "seed": 2,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "439feac0-3ad5-461c-b1b0-417daa9aaf64",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 0.9,
+                "min_data_in_leaf": 10,
+                "seed": 2,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Stock Splits": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "AutoML_2",
+                "ml_task": "binary_classification",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "objective": "binary",
+            "num_leaves": 63,
+            "learning_rate": 0.05,
+            "feature_fraction": 0.9,
+            "bagging_fraction": 0.9,
+            "min_data_in_leaf": 10,
+            "seed": 2,
+            "metric": "binary_logloss",
+            "custom_eval_metric_name": null,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 1,
+        "name": "2_Default_LightGBM_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "2_Default_LightGBM_GoldenFeatures\\learner_fold_0.lightgbm",
+        "2_Default_LightGBM_GoldenFeatures\\learner_fold_1.lightgbm",
+        "2_Default_LightGBM_GoldenFeatures\\learner_fold_2.lightgbm",
+        "2_Default_LightGBM_GoldenFeatures\\learner_fold_3.lightgbm",
+        "2_Default_LightGBM_GoldenFeatures\\learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "2_Default_LightGBM_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.691183999524958",
+    "train_time": 5.476717710494995,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "threshold": 0.497385158620698,
+    "single_prediction_time": 0.03188729286193848
+}

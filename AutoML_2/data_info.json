@@ -1,0 +1,60 @@
+{
+    "columns": [
+        "Open Price",
+        "High Price",
+        "Low Price",
+        "Close Price",
+        "Volume",
+        "Dividend",
+        "Stock Splits",
+        "MA5",
+        "MA10",
+        "MA20",
+        "Prev Close Price",
+        "Prev Volume"
+    ],
+    "rows": 5008,
+    "cols": 12,
+    "target_is_numeric": true,
+    "columns_info": {
+        "Open Price": [
+            "scale"
+        ],
+        "High Price": [
+            "scale"
+        ],
+        "Low Price": [
+            "scale"
+        ],
+        "Close Price": [
+            "scale"
+        ],
+        "Volume": [
+            "scale"
+        ],
+        "Dividend": [],
+        "Stock Splits": [
+            "constant_column"
+        ],
+        "MA5": [
+            "scale"
+        ],
+        "MA10": [
+            "scale"
+        ],
+        "MA20": [
+            "scale"
+        ],
+        "Prev Close Price": [
+            "scale"
+        ],
+        "Prev Volume": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 12,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false,
+    "n_classes": 2
+}

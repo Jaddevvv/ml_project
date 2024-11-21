@@ -1,0 +1,774 @@
+{
+    "uid": "999a7e1e-dfb7-4e68-8520-a3f37e77db15",
+    "name": "22_RandomForest_GoldenFeatures",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0268157395
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Dividend",
+                        "operation": "diff",
+                        "score": 0.02681709
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268172143
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268487155
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268946166
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268988416
+                    }
+                ],
+                "new_columns": [
+                    "Close Price_sum_High Price",
+                    "Close Price_multiply_High Price",
+                    "Low Price_multiply_High Price",
+                    "High Price_diff_Dividend",
+                    "Dividend_sum_High Price",
+                    "Low Price_sum_High Price",
+                    "Close Price_multiply_Open Price",
+                    "Close Price_sum_Open Price",
+                    "High Price_multiply_Open Price",
+                    "High Price_sum_Open Price"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    1.4126583403200188
+                ],
+                "mean": [
+                    4.391626967642811
+                ],
+                "var": [
+                    1.9956035864757098
+                ],
+                "n_samples_seen": 4006,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    13.12
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0268157395
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Dividend",
+                        "operation": "diff",
+                        "score": 0.02681709
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268172143
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268487155
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268946166
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268988416
+                    }
+                ],
+                "new_columns": [
+                    "Close Price_sum_High Price",
+                    "Close Price_multiply_High Price",
+                    "Low Price_multiply_High Price",
+                    "High Price_diff_Dividend",
+                    "Dividend_sum_High Price",
+                    "Low Price_sum_High Price",
+                    "Close Price_multiply_Open Price",
+                    "Close Price_sum_Open Price",
+                    "High Price_multiply_Open Price",
+                    "High Price_sum_Open Price"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    1.4238197622336375
+                ],
+                "mean": [
+                    4.368916236549797
+                ],
+                "var": [
+                    2.0272627153270517
+                ],
+                "n_samples_seen": 4006,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    13.12
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0268157395
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Dividend",
+                        "operation": "diff",
+                        "score": 0.02681709
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268172143
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268487155
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268946166
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268988416
+                    }
+                ],
+                "new_columns": [
+                    "Close Price_sum_High Price",
+                    "Close Price_multiply_High Price",
+                    "Low Price_multiply_High Price",
+                    "High Price_diff_Dividend",
+                    "Dividend_sum_High Price",
+                    "Low Price_sum_High Price",
+                    "Close Price_multiply_Open Price",
+                    "Close Price_sum_Open Price",
+                    "High Price_multiply_Open Price",
+                    "High Price_sum_Open Price"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    1.4189501606238555
+                ],
+                "mean": [
+                    4.380603848444117
+                ],
+                "var": [
+                    2.013419558334465
+                ],
+                "n_samples_seen": 4006,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    13.12
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0268157395
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Dividend",
+                        "operation": "diff",
+                        "score": 0.02681709
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268172143
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268487155
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268946166
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268988416
+                    }
+                ],
+                "new_columns": [
+                    "Close Price_sum_High Price",
+                    "Close Price_multiply_High Price",
+                    "Low Price_multiply_High Price",
+                    "High Price_diff_Dividend",
+                    "Dividend_sum_High Price",
+                    "Low Price_sum_High Price",
+                    "Close Price_multiply_Open Price",
+                    "Close Price_sum_Open Price",
+                    "High Price_multiply_Open Price",
+                    "High Price_sum_Open Price"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    1.410984237291312
+                ],
+                "mean": [
+                    4.396832002509717
+                ],
+                "var": [
+                    1.9908765178845456
+                ],
+                "n_samples_seen": 4007,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    13.12
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0267514728
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "multiply",
+                        "score": 0.0268157395
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Dividend",
+                        "operation": "diff",
+                        "score": 0.02681709
+                    },
+                    {
+                        "feature1": "Dividend",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268172143
+                    },
+                    {
+                        "feature1": "Low Price",
+                        "feature2": "High Price",
+                        "operation": "sum",
+                        "score": 0.0268487155
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "Close Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268804198
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "multiply",
+                        "score": 0.0268946166
+                    },
+                    {
+                        "feature1": "High Price",
+                        "feature2": "Open Price",
+                        "operation": "sum",
+                        "score": 0.0268988416
+                    }
+                ],
+                "new_columns": [
+                    "Close Price_sum_High Price",
+                    "Close Price_multiply_High Price",
+                    "Low Price_multiply_High Price",
+                    "High Price_diff_Dividend",
+                    "Dividend_sum_High Price",
+                    "Low Price_sum_High Price",
+                    "Close Price_multiply_Open Price",
+                    "Close Price_sum_Open Price",
+                    "High Price_multiply_Open Price",
+                    "High Price_sum_Open Price"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    1.4354291351289532
+                ],
+                "mean": [
+                    4.366841646661201
+                ],
+                "var": [
+                    2.060456801977055
+                ],
+                "n_samples_seen": 4007,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    13.14
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "72b50fea-90a8-49f6-9671-3520faed9bae",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "criterion": "squared_error",
+                "max_features": 0.6,
+                "min_samples_split": 50,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "dc3cc228-8f9e-4591-8bdf-f8a28a258f11",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "criterion": "squared_error",
+                "max_features": 0.6,
+                "min_samples_split": 50,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "ecb69d85-4640-4e86-894d-e7ddc51cd3b4",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "criterion": "squared_error",
+                "max_features": 0.6,
+                "min_samples_split": 50,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "8e2b27a3-6677-4984-b9f5-a61231f91a47",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "criterion": "squared_error",
+                "max_features": 0.6,
+                "min_samples_split": 50,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "bdebf1e5-d9a8-4f77-997c-23c2df562735",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "criterion": "squared_error",
+                "max_features": 0.6,
+                "min_samples_split": 50,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "train_cant_improve_limit": 1,
+            "min_steps": 1,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Stock Splits": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_1",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_1\\X.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Random Forest",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1238,
+            "criterion": "squared_error",
+            "max_features": 0.6,
+            "min_samples_split": 50,
+            "max_depth": 6,
+            "eval_metric_name": "rmse",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "22_RandomForest_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "22_RandomForest_GoldenFeatures\\learner_fold_0.random_forest",
+        "22_RandomForest_GoldenFeatures\\learner_fold_1.random_forest",
+        "22_RandomForest_GoldenFeatures\\learner_fold_2.random_forest",
+        "22_RandomForest_GoldenFeatures\\learner_fold_3.random_forest",
+        "22_RandomForest_GoldenFeatures\\learner_fold_4.random_forest"
+    ],
+    "predictions_fname": "22_RandomForest_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "10.251802102895875",
+    "train_time": 47.8047821521759,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "single_prediction_time": 0.6450316905975342
+}

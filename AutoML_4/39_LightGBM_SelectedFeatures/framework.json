@@ -1,0 +1,417 @@
+{
+    "uid": "b70fc1de-6ec3-4466-a138-12c825099f9b",
+    "name": "39_LightGBM_SelectedFeatures",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "MA5",
+                "MA20",
+                "Low Price",
+                "MA10",
+                "High Price",
+                "Open Price",
+                "Dividend"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "MA5",
+                    "High Price_diff_Low Price",
+                    "High Price_ratio_Open Price",
+                    "MA20",
+                    "Low Price",
+                    "Prev Close Price_ratio_MA5",
+                    "MA5_ratio_Prev Close Price",
+                    "random_feature",
+                    "MA10",
+                    "Dividend_ratio_Volume",
+                    "High Price",
+                    "Open Price",
+                    "Dividend",
+                    "Open Price_ratio_High Price",
+                    "Dividend_ratio_Prev Volume"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "MA5",
+                "MA20",
+                "Low Price",
+                "MA10",
+                "High Price",
+                "Open Price",
+                "Dividend"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "MA5",
+                    "High Price_diff_Low Price",
+                    "High Price_ratio_Open Price",
+                    "MA20",
+                    "Low Price",
+                    "Prev Close Price_ratio_MA5",
+                    "MA5_ratio_Prev Close Price",
+                    "random_feature",
+                    "MA10",
+                    "Dividend_ratio_Volume",
+                    "High Price",
+                    "Open Price",
+                    "Dividend",
+                    "Open Price_ratio_High Price",
+                    "Dividend_ratio_Prev Volume"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "MA5",
+                "MA20",
+                "Low Price",
+                "MA10",
+                "High Price",
+                "Open Price",
+                "Dividend"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "MA5",
+                    "High Price_diff_Low Price",
+                    "High Price_ratio_Open Price",
+                    "MA20",
+                    "Low Price",
+                    "Prev Close Price_ratio_MA5",
+                    "MA5_ratio_Prev Close Price",
+                    "random_feature",
+                    "MA10",
+                    "Dividend_ratio_Volume",
+                    "High Price",
+                    "Open Price",
+                    "Dividend",
+                    "Open Price_ratio_High Price",
+                    "Dividend_ratio_Prev Volume"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "MA5",
+                "MA20",
+                "Low Price",
+                "MA10",
+                "High Price",
+                "Open Price",
+                "Dividend"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "MA5",
+                    "High Price_diff_Low Price",
+                    "High Price_ratio_Open Price",
+                    "MA20",
+                    "Low Price",
+                    "Prev Close Price_ratio_MA5",
+                    "MA5_ratio_Prev Close Price",
+                    "random_feature",
+                    "MA10",
+                    "Dividend_ratio_Volume",
+                    "High Price",
+                    "Open Price",
+                    "Dividend",
+                    "Open Price_ratio_High Price",
+                    "Dividend_ratio_Prev Volume"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "Stock Splits"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "MA5",
+                "MA20",
+                "Low Price",
+                "MA10",
+                "High Price",
+                "Open Price",
+                "Dividend"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "Stock Splits": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "MA5",
+                    "High Price_diff_Low Price",
+                    "High Price_ratio_Open Price",
+                    "MA20",
+                    "Low Price",
+                    "Prev Close Price_ratio_MA5",
+                    "MA5_ratio_Prev Close Price",
+                    "random_feature",
+                    "MA10",
+                    "Dividend_ratio_Volume",
+                    "High Price",
+                    "Open Price",
+                    "Dividend",
+                    "Open Price_ratio_High Price",
+                    "Dividend_ratio_Prev Volume"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "e3dbd372-0602-4979-9361-0d3f7b58534f",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "binary",
+                "num_leaves": 95,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "2a7b72af-f4ca-41bb-9d9b-7cf242141394",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "binary",
+                "num_leaves": 95,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "7ae96c18-99c6-4dbd-9a2a-750bd53fef14",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "binary",
+                "num_leaves": 95,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "e04f40d7-1f2b-44a5-8701-3193f4bc85ac",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "binary",
+                "num_leaves": 95,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "d0ec496c-5990-482b-a2e6-269bd792c127",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "binary",
+                "num_leaves": 95,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Stock Splits": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "MA5",
+                "High Price_diff_Low Price",
+                "High Price_ratio_Open Price",
+                "MA20",
+                "Low Price",
+                "Prev Close Price_ratio_MA5",
+                "MA5_ratio_Prev Close Price",
+                "random_feature",
+                "MA10",
+                "Dividend_ratio_Volume",
+                "High Price",
+                "Open Price",
+                "Dividend",
+                "Open Price_ratio_High Price",
+                "Dividend_ratio_Prev Volume"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_4\\X.data",
+            "y_path": "AutoML_4\\y.data",
+            "results_path": "AutoML_4"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1237,
+            "objective": "binary",
+            "num_leaves": 95,
+            "learning_rate": 0.05,
+            "feature_fraction": 0.9,
+            "bagging_fraction": 1.0,
+            "min_data_in_leaf": 20,
+            "metric": "binary_logloss",
+            "custom_eval_metric_name": null,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 1,
+        "name": "39_LightGBM_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "39_LightGBM_SelectedFeatures\\learner_fold_0.lightgbm",
+        "39_LightGBM_SelectedFeatures\\learner_fold_1.lightgbm",
+        "39_LightGBM_SelectedFeatures\\learner_fold_2.lightgbm",
+        "39_LightGBM_SelectedFeatures\\learner_fold_3.lightgbm",
+        "39_LightGBM_SelectedFeatures\\learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "39_LightGBM_SelectedFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.6923158956930838",
+    "train_time": 27.017197608947754,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "threshold": 0.4919782601070005,
+    "single_prediction_time": 0.051748037338256836
+}

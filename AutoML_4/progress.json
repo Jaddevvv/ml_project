@@ -1,0 +1,4578 @@
+{
+    "fit_level": "finished",
+    "time_controller": {
+        "total_time_limit": 3600,
+        "model_time_limit": null,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "not_so_random",
+            "golden_features",
+            "insert_random_feature",
+            "features_selection",
+            "hill_climbing_1",
+            "hill_climbing_2",
+            "ensemble"
+        ],
+        "algorithms": [
+            "Linear",
+            "Random Forest",
+            "LightGBM",
+            "Xgboost",
+            "CatBoost",
+            "Neural Network"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 0.05219149589538574
+            },
+            {
+                "model_name": "1_Linear",
+                "model_type": "Linear",
+                "fit_level": "simple_algorithms",
+                "train_time": 12.68421721458435
+            },
+            {
+                "model_name": "2_Default_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "default_algorithms",
+                "train_time": 17.227176666259766
+            },
+            {
+                "model_name": "3_Default_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "default_algorithms",
+                "train_time": 16.703441619873047
+            },
+            {
+                "model_name": "4_Default_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "default_algorithms",
+                "train_time": 20.568789958953857
+            },
+            {
+                "model_name": "5_Default_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "default_algorithms",
+                "train_time": 25.578953504562378
+            },
+            {
+                "model_name": "6_Default_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "default_algorithms",
+                "train_time": 40.66484093666077
+            },
+            {
+                "model_name": "11_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 18.88166332244873
+            },
+            {
+                "model_name": "7_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 17.245280265808105
+            },
+            {
+                "model_name": "15_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 6.958321571350098
+            },
+            {
+                "model_name": "19_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 8.212911605834961
+            },
+            {
+                "model_name": "23_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 6.562930583953857
+            },
+            {
+                "model_name": "12_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 4.558471202850342
+            },
+            {
+                "model_name": "8_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 4.734472036361694
+            },
+            {
+                "model_name": "16_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 6.366594076156616
+            },
+            {
+                "model_name": "20_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 11.645757675170898
+            },
+            {
+                "model_name": "24_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 6.871497631072998
+            },
+            {
+                "model_name": "13_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 5.5840394496917725
+            },
+            {
+                "model_name": "9_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 5.366319417953491
+            },
+            {
+                "model_name": "17_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 6.731307506561279
+            },
+            {
+                "model_name": "21_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 16.32303214073181
+            },
+            {
+                "model_name": "25_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 32.637291431427
+            },
+            {
+                "model_name": "14_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 17.686246395111084
+            },
+            {
+                "model_name": "10_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 5.922287702560425
+            },
+            {
+                "model_name": "18_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 7.2092742919921875
+            },
+            {
+                "model_name": "22_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 10.323203325271606
+            },
+            {
+                "model_name": "26_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 19.083096981048584
+            },
+            {
+                "model_name": "16_CatBoost_GoldenFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "golden_features",
+                "train_time": 28.370176553726196
+            },
+            {
+                "model_name": "17_CatBoost_GoldenFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "golden_features",
+                "train_time": 24.57698082923889
+            },
+            {
+                "model_name": "15_CatBoost_GoldenFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "golden_features",
+                "train_time": 31.536802530288696
+            },
+            {
+                "model_name": "16_CatBoost_GoldenFeatures_RandomFeature",
+                "model_type": "CatBoost",
+                "fit_level": "insert_random_feature",
+                "train_time": 37.61691379547119
+            },
+            {
+                "model_name": "16_CatBoost_GoldenFeatures_SelectedFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "features_selection",
+                "train_time": 21.358853816986084
+            },
+            {
+                "model_name": "3_Default_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "features_selection",
+                "train_time": 18.249579668045044
+            },
+            {
+                "model_name": "21_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "features_selection",
+                "train_time": 29.3355929851532
+            },
+            {
+                "model_name": "13_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "features_selection",
+                "train_time": 19.05621361732483
+            },
+            {
+                "model_name": "5_Default_NeuralNetwork_SelectedFeatures",
+                "model_type": "Neural Network",
+                "fit_level": "features_selection",
+                "train_time": 27.56740379333496
+            },
+            {
+                "model_name": "27_CatBoost_GoldenFeatures_SelectedFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 23.75318169593811
+            },
+            {
+                "model_name": "28_CatBoost_GoldenFeatures_SelectedFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 30.854397535324097
+            },
+            {
+                "model_name": "29_CatBoost_GoldenFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 40.50491762161255
+            },
+            {
+                "model_name": "30_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 18.646978616714478
+            },
+            {
+                "model_name": "31_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 19.225394248962402
+            },
+            {
+                "model_name": "32_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 17.330037355422974
+            },
+            {
+                "model_name": "33_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 20.173665285110474
+            },
+            {
+                "model_name": "34_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 31.376875162124634
+            },
+            {
+                "model_name": "35_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 30.616466760635376
+            },
+            {
+                "model_name": "36_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 35.32417631149292
+            },
+            {
+                "model_name": "37_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 43.37721085548401
+            },
+            {
+                "model_name": "38_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_1",
+                "train_time": 24.520612955093384
+            },
+            {
+                "model_name": "39_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_1",
+                "train_time": 27.017197608947754
+            },
+            {
+                "model_name": "40_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_1",
+                "train_time": 25.128355503082275
+            },
+            {
+                "model_name": "41_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_1",
+                "train_time": 24.979709148406982
+            },
+            {
+                "model_name": "42_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_1",
+                "train_time": 33.51420736312866
+            },
+            {
+                "model_name": "43_NeuralNetwork_SelectedFeatures",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_1",
+                "train_time": 33.41072416305542
+            },
+            {
+                "model_name": "44_NeuralNetwork_SelectedFeatures",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_1",
+                "train_time": 33.45963501930237
+            },
+            {
+                "model_name": "45_CatBoost_GoldenFeatures_SelectedFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 26.65966558456421
+            },
+            {
+                "model_name": "46_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 22.330674648284912
+            },
+            {
+                "model_name": "47_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 17.060731887817383
+            },
+            {
+                "model_name": "48_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_2",
+                "train_time": 10.377898693084717
+            },
+            {
+                "model_name": "49_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_2",
+                "train_time": 13.624475479125977
+            },
+            {
+                "model_name": "50_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_2",
+                "train_time": 15.848630666732788
+            },
+            {
+                "model_name": "51_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_2",
+                "train_time": 21.822322845458984
+            },
+            {
+                "model_name": "52_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_2",
+                "train_time": 23.48727583885193
+            },
+            {
+                "model_name": "53_NeuralNetwork_SelectedFeatures",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_2",
+                "train_time": 37.546147108078
+            },
+            {
+                "model_name": "54_NeuralNetwork_SelectedFeatures",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_2",
+                "train_time": 31.96793031692505
+            },
+            {
+                "model_name": "55_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_2",
+                "train_time": 10.361150741577148
+            },
+            {
+                "model_name": "56_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_2",
+                "train_time": 9.31021237373352
+            },
+            {
+                "model_name": "Ensemble",
+                "model_type": "Ensemble",
+                "fit_level": "ensemble",
+                "train_time": 13.132572650909424
+            }
+        ],
+        "is_hill_climbing": true,
+        "is_stacking": false
+    },
+    "all_params": {
+        "simple_algorithms": [
+            {
+                "additional": {
+                    "max_steps": 1,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Linear",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "1_Linear",
+                "status": "trained",
+                "final_loss": 0.6929309257626317,
+                "train_time": 16.30865502357483,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "default_algorithms": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 0.9,
+                    "min_data_in_leaf": 10,
+                    "seed": 2,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "2_Default_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6923531644288059,
+                "train_time": 21.334548950195312,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "3_Default_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6911930386649945,
+                "train_time": 21.511511087417603,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "learning_rate": 0.1,
+                    "depth": 6,
+                    "rsm": 1,
+                    "loss_function": "Logloss",
+                    "seed": 4,
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "4_Default_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6912056342071562,
+                "train_time": 25.01804780960083,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "5_Default_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6931975238333404,
+                "train_time": 30.211657285690308,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "criterion": "gini",
+                    "max_features": 0.9,
+                    "min_samples_split": 30,
+                    "max_depth": 4,
+                    "seed": 6,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "6_Default_RandomForest",
+                "status": "trained",
+                "final_loss": 0.6916375155475881,
+                "train_time": 45.900439739227295,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "not_so_random": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 15,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "11_LightGBM",
+                "status": "trained",
+                "final_loss": 0.691932854633326,
+                "train_time": 23.562726736068726,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 8,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "7_Xgboost",
+                "status": "trained",
+                "final_loss": 0.691890080429593,
+                "train_time": 18.556284189224243,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "learning_rate": 0.05,
+                    "depth": 8,
+                    "rsm": 0.8,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "15_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6910067599130827,
+                "train_time": 7.944669961929321,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.5,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "19_RandomForest",
+                "status": "trained",
+                "final_loss": 0.6914350390635808,
+                "train_time": 9.134404420852661,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "dense_1_size": 32,
+                    "dense_2_size": 4,
+                    "learning_rate": 0.05,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "23_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6971741312724727,
+                "train_time": 7.551079273223877,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.2,
+                    "feature_fraction": 0.5,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 10,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "12_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6929963998771376,
+                "train_time": 5.359677076339722,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 8,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "8_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6917597727630768,
+                "train_time": 5.544563293457031,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "16_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6904627441245119,
+                "train_time": 7.571366548538208,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "criterion": "gini",
+                    "max_features": 0.7,
+                    "min_samples_split": 30,
+                    "max_depth": 7,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "20_RandomForest",
+                "status": "trained",
+                "final_loss": 0.6932278737431458,
+                "train_time": 12.931988716125488,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "dense_1_size": 64,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.01,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "24_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6957491033942366,
+                "train_time": 7.682314157485962,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "13_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6918936409355854,
+                "train_time": 6.920113801956177,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 7,
+                    "min_child_weight": 25,
+                    "subsample": 0.9,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "9_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6923688103526277,
+                "train_time": 6.423050165176392,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "17_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6909896122849559,
+                "train_time": 7.964378833770752,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.8,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "21_RandomForest",
+                "status": "trained",
+                "final_loss": 0.691391790507946,
+                "train_time": 20.555466651916504,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "dense_1_size": 64,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.08,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "25_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6956687011318358,
+                "train_time": 36.73438596725464,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "binary",
+                    "num_leaves": 95,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 1.0,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 10,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "14_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6923028093284046,
+                "train_time": 22.039621114730835,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "binary:logistic",
+                    "eta": 0.15,
+                    "max_depth": 8,
+                    "min_child_weight": 50,
+                    "subsample": 0.6,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "10_Xgboost",
+                "status": "trained",
+                "final_loss": 0.691367903435921,
+                "train_time": 6.919048070907593,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "learning_rate": 0.2,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "18_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6918847185402779,
+                "train_time": 8.164587020874023,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "criterion": "entropy",
+                    "max_features": 0.6,
+                    "min_samples_split": 50,
+                    "max_depth": 6,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "22_RandomForest",
+                "status": "trained",
+                "final_loss": 0.6920008016288779,
+                "train_time": 11.298184633255005,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "dense_1_size": 32,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.05,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "26_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6995100807751744,
+                "train_time": 23.72362208366394,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "golden_features": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "16_CatBoost_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.6885772411545964,
+                "train_time": 33.357611417770386,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "17_CatBoost_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.6891600281670319,
+                "train_time": 28.374953746795654,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "learning_rate": 0.05,
+                    "depth": 8,
+                    "rsm": 0.8,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "15_CatBoost_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.6893642903431365,
+                "train_time": 36.57770013809204,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "insert_random_feature": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    },
+                    "add_random_feature": true
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "16_CatBoost_GoldenFeatures_RandomFeature",
+                "status": "trained",
+                "final_loss": 0.6884795766938098,
+                "train_time": 43.399789333343506,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "features_selection": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    },
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "16_CatBoost_GoldenFeatures_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6877959864317306,
+                "train_time": 25.924093008041382,
+                "data_type": "original_golden_features_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "3_Default_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6905731752391102,
+                "train_time": 22.675657272338867,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.8,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "21_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6912897217066512,
+                "train_time": 33.62843418121338,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "13_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.691613234193607,
+                "train_time": 22.97464609146118,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "5_Default_NeuralNetwork_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6935009241045708,
+                "train_time": 31.636804819107056,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "hill_climbing_1": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    },
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "27_CatBoost_GoldenFeatures_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6866661284356352,
+                "train_time": 28.130502700805664,
+                "data_type": "original_golden_features_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    },
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 9,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "28_CatBoost_GoldenFeatures_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6883579473996991,
+                "train_time": 34.91918206214905,
+                "data_type": "original_golden_features_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 9,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "29_CatBoost_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.6883712831079197,
+                "train_time": 45.60735893249512,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "30_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6911428777920235,
+                "train_time": 23.138364791870117,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "31_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6911499604499253,
+                "train_time": 23.482853174209595,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "32_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6914033107014148,
+                "train_time": 22.39743399620056,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "33_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6912646281918563,
+                "train_time": 24.8224458694458,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.7,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "34_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6912960507425308,
+                "train_time": 35.40023326873779,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.9,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "35_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6912897217066512,
+                "train_time": 34.63270616531372,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.7,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "36_RandomForest",
+                "status": "trained",
+                "final_loss": 0.6914565798324246,
+                "train_time": 40.36988568305969,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.9,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "37_RandomForest",
+                "status": "trained",
+                "final_loss": 0.69169153700588,
+                "train_time": 48.61238384246826,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "38_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6913055148126106,
+                "train_time": 29.414915561676025,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 95,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "39_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6923158956930838,
+                "train_time": 31.621591567993164,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "40_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6916990836029977,
+                "train_time": 30.357003927230835,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 95,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "41_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6921871259590722,
+                "train_time": 29.15080499649048,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 8,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "42_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.693792687114862,
+                "train_time": 38.1685094833374,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 8,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "43_NeuralNetwork_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.693586199153402,
+                "train_time": 37.84823489189148,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "44_NeuralNetwork_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6929050495169337,
+                "train_time": 38.28385782241821,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "hill_climbing_2": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_4",
+                        "ml_task": "binary_classification",
+                        "n_jobs": -1
+                    },
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 6,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "45_CatBoost_GoldenFeatures_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6871969305027051,
+                "train_time": 31.781736612319946,
+                "data_type": "original_golden_features_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "46_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6902055220777793,
+                "train_time": 27.316394090652466,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 6,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "47_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6904071490104586,
+                "train_time": 17.946191549301147,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 1.0,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "48_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6913038081328812,
+                "train_time": 11.38533878326416,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "49_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6916544302775174,
+                "train_time": 14.579180002212524,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 1.0,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "50_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6913055148126106,
+                "train_time": 19.640745401382446,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "51_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6919850404400406,
+                "train_time": 26.977586269378662,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Stock Splits": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 1.0,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "52_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.691613234193607,
+                "train_time": 28.201536178588867,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.01,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "53_NeuralNetwork_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6945741079411767,
+                "train_time": 41.37406039237976,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "MA5",
+                        "High Price_diff_Low Price",
+                        "High Price_ratio_Open Price",
+                        "MA20",
+                        "Low Price",
+                        "Prev Close Price_ratio_MA5",
+                        "MA5_ratio_Prev Close Price",
+                        "random_feature",
+                        "MA10",
+                        "Dividend_ratio_Volume",
+                        "High Price",
+                        "Open Price",
+                        "Dividend",
+                        "Open Price_ratio_High Price",
+                        "Dividend_ratio_Prev Volume"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.08,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "54_NeuralNetwork_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.6990984871805415,
+                "train_time": 33.06503081321716,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.01,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "55_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6944986999954188,
+                "train_time": 11.145938396453857,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "Open Price": [
+                            "scale_normal"
+                        ],
+                        "High Price": [
+                            "scale_normal"
+                        ],
+                        "Low Price": [
+                            "scale_normal"
+                        ],
+                        "Close Price": [
+                            "scale_normal"
+                        ],
+                        "Volume": [
+                            "scale_normal"
+                        ],
+                        "Stock Splits": [
+                            "remove_column"
+                        ],
+                        "MA5": [
+                            "scale_normal"
+                        ],
+                        "MA10": [
+                            "scale_normal"
+                        ],
+                        "MA20": [
+                            "scale_normal"
+                        ],
+                        "Prev Close Price": [
+                            "scale_normal"
+                        ],
+                        "Prev Volume": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_4\\X.data",
+                    "y_path": "AutoML_4\\y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.08,
+                    "seed": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "56_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.6933257605557512,
+                "train_time": 10.467207908630371,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "ensemble": [
+            {
+                "model_type": "ensemble",
+                "is_stacked": false,
+                "name": "Ensemble",
+                "status": "trained",
+                "final_loss": 0.6861308644830788,
+                "train_time": 13.132572650909424
+            }
+        ]
+    },
+    "adjust_validation": false
+}

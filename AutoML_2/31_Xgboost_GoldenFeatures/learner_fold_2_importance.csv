@@ -1,0 +1,22 @@
+feature,mean_importance
+Open Price,-0.0002405083866905411
+MA20_ratio_MA10,-0.0002210998405836051
+MA20,-0.00020716886032459136
+MA10,-0.0001806400968646038
+Prev Volume_multiply_Prev Close Price,-7.715295669805667e-05
+Low Price,0.0
+Dividend_ratio_Prev Volume,0.0
+Dividend_multiply_Low Price,0.0
+MA5_ratio_Dividend,0.0
+Dividend_ratio_Volume,0.0
+Dividend,0.0
+MA5,5.5490063393537346e-05
+Close Price,0.00013503476343188492
+High Price,0.00015924810447405237
+Prev Close Price,0.0001623129269150869
+Prev Volume,0.0002655484112502382
+Open Price_diff_Low Price,0.0003731429613231363
+Low Price_diff_MA20,0.0004865223114894235
+Low Price_diff_Close Price,0.0005166857265555436
+Close Price_ratio_MA5,0.0008040846344507413
+Volume,0.0008725334232895898

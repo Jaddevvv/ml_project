@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "Close Price",
+            "feature2": "Dividend",
+            "operation": "diff",
+            "score": 0.0329378763
+        },
+        {
+            "feature1": "Dividend",
+            "feature2": "Close Price",
+            "operation": "sum",
+            "score": 0.0329460476
+        },
+        {
+            "feature1": "Low Price",
+            "feature2": "High Price",
+            "operation": "multiply",
+            "score": 0.0331317728
+        },
+        {
+            "feature1": "Close Price",
+            "feature2": "Low Price",
+            "operation": "multiply",
+            "score": 0.0332977149
+        },
+        {
+            "feature1": "Close Price",
+            "feature2": "Low Price",
+            "operation": "sum",
+            "score": 0.0333005077
+        },
+        {
+            "feature1": "Low Price",
+            "feature2": "High Price",
+            "operation": "sum",
+            "score": 0.0333434703
+        },
+        {
+            "feature1": "Close Price",
+            "feature2": "High Price",
+            "operation": "multiply",
+            "score": 0.0333454371
+        },
+        {
+            "feature1": "Close Price",
+            "feature2": "High Price",
+            "operation": "sum",
+            "score": 0.0333454371
+        },
+        {
+            "feature1": "High Price",
+            "feature2": "Open Price",
+            "operation": "multiply",
+            "score": 0.0334589636
+        },
+        {
+            "feature1": "High Price",
+            "feature2": "Open Price",
+            "operation": "sum",
+            "score": 0.0334589636
+        }
+    ],
+    "new_columns": [
+        "Close Price_diff_Dividend",
+        "Dividend_sum_Close Price",
+        "Low Price_multiply_High Price",
+        "Close Price_multiply_Low Price",
+        "Close Price_sum_Low Price",
+        "Low Price_sum_High Price",
+        "Close Price_multiply_High Price",
+        "Close Price_sum_High Price",
+        "High Price_multiply_Open Price",
+        "High Price_sum_Open Price"
+    ],
+    "ml_task": "regression"
+}
